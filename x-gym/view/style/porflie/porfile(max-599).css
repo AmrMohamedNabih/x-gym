@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #f3f2ef;
+}
+.containers{
+    width: 100%;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+/* ======== nav ======== */
+
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    z-index: 100;
+}
+/* -logo- */
+
+nav .logo img{
+    width: 70px;
+}
+
+/* - search box - */
+
+nav .search-box{
+    background:#f3f2ef;
+    padding: 0 15px;
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+nav .search-box i{
+    color: #5f5f5f;
+}
+nav .search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+
+/* - nav center - */
+nav .nav-center{
+    display: none;
+    width: 50%;
+}
+nav .nav-center ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .nav-center ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav .nav-center ul li a{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-center ul li a:hover{
+    color: #000;
+}
+nav .nav-center ul li a img{
+    width: 30px;
+}
+
+
+/* - nav right - */
+
+nav .nav-profile-img{
+    display:  none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* ====== nav-end-in-599px =========== */
+.nav-end-in-599px{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 7%;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+.nav-end-in-599px ul {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-end-in-599px ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-end-in-599px ul li a{
+    font-size: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-end-in-599px ul li a:hover{
+    color: #000;
+}
+.nav-end-in-599px ul li a img{
+    width: 35px;
+}
+/* ========= content ==========  */
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+/* ========= left-side ========  */
+.left-side{
+    width: 80%;
+    height: auto;
+}
+ /* ------- first container in left side ---------- */
+.first-container-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    height: 200px;
+}
+.fc-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.fc-left img{
+    border:3px solid #a0beed;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+
+}
+
+.fc-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.fc-right::after{
+    content: "";
+    width: 2px;
+    height: 70%;
+    background:#f3f2ef;
+    position: absolute;
+    left: -11%;
+    bottom: 18%;
+}
+/* ** name **  */
+.fc-right-name,.fc-right-rank {
+    display: flex;
+}
+.fc-right-name p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fc-right-name img{
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+}
+/* ** rank **  */
+.fc-right-rank p{
+    padding-left: 5px;
+    font-family: Cursive;
+}
+.fc-right-rank img{
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 22px;
+    height: 22px;
+}
+/* ** track&points **  */
+.fc-right-track-points{
+    margin-left: 5px;
+    font-family: cursive;
+    display: block;
+}
+/* ** input **  */
+.fc-right-input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.fc-right-input input{
+    outline: none;
+    border: none;
+}
+.follow{
+    border-radius:30px;
+    padding: 3% 8%;
+    background: #a0beed;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.sand-massage{
+    border-radius:30px;
+    padding: 3% 8%;
+}
+ /* ------- second container in left side ---------- */
+.second-container-left{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+}
+.sc-img{
+    border-radius:  10px;
+    display: flex;
+    overflow: scroll;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sc-img img{
+    margin-bottom: 0.2%;
+    width: 33.2%;
+}
+/* ================ right-side ======== */
+.right-side{
+    margin-top: 10px;
+    width: 80%;
+    height: 1000px;
+    border-radius: 10px;
+}
+/* ------- first-container-right --------  */
+.first-container-right{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.first-container-right img{
+    width: 100%;
+}
+.second-container-right{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+}
+.second-container-right img{
+    width: 100%;
+}
+.third-container-right{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+}
+.third-container-right input{
+    outline: none;
+    border: none;
+    width: 40%;
+    border-radius:30px;
+    padding: 10px 8px;
+    background: #a0beed;
+    margin-right: 10px;
+}
+/* ============== footer =============== */
+.footer {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-self: end;
+    position: relative;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10%;
+}
+.footer-leftside{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-leftside img{
+    width: 30%;
+}
+
+.footer-rightside{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-rightside ul{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.footer-rightside ul li{
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-rightside ul li a{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.footer-rightside ul li a:hover{
+    color: #000;
+
+}
