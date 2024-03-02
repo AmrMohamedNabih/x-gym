@@ -1,0 +1,41 @@
+.ePage{
+    height: calc(100vh - 75px)!important;
+    width: 100vw;
+    display: flex;
+    
+}
+.leftSide{
+    width: 250px;
+    height:calc(100vh - 75px)!important;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: scroll;
+
+}
+.leftSide::-webkit-scrollbar {
+    display: none;
+}
+.list{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #fff;
+}
+.listActive{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #a0beed;
+}
+.rightSide{
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

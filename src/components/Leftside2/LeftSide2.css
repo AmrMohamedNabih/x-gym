@@ -1,0 +1,128 @@
+.left-side{
+    width: 45%;
+    height: 450px;
+    margin-right:0.5%;
+}
+    /* ------- first container in left side ---------- */
+.first-container-left{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    height: 200px;
+}
+.fc-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.fc-left img{
+    border:3px solid #a0beed;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+
+}
+
+.fc-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.fc-right::after{
+    content: "";
+    width: 2px;
+    height: 70%;
+    background:#f3f2ef;
+    position: absolute;
+    left: -11%;
+    bottom: 18%;
+}
+/* * name *  */
+.fc-right-name,.fc-right-rank {
+    display: flex;
+}
+.fc-right-name p{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.fc-right-name img{
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+}
+/* * rank *  */
+.fc-right-rank p{
+    padding-left: 5px;
+    font-family: Cursive;
+}
+.fc-right-rank img{
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 22px;
+    height: 22px;
+}
+/* * track&points *  */
+.fc-right-track-points{
+    margin-left: 5px;
+    font-family: cursive;
+    display: block;
+}
+/* * input *  */
+.fc-right-input{
+    width: 100%;
+    height: 40%;
+    padding: 5% 0px;
+    box-sizing: border-box;
+    display: flex;
+}
+.fc-right-input input{
+    outline: none;
+    border: none;
+
+}
+.follow{
+    color: #fff;
+    width: 80%;
+    height: 100%;
+    border-radius:30px;
+    padding: 5px 8px;
+    background: #a0beed;
+    margin-right: 10px;
+    margin-top: 35px;
+    font-size:larger;
+    font-weight: 900;
+}
+.sand-massage{
+    width: 60%;
+    border-radius:30px;
+    padding: 5px 8px;
+}
+ /* ------- second container in left side ---------- */
+.second-container-left{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+}
+.sc-img{
+    border-radius:  10px;
+    display: flex;
+    overflow: scroll;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sc-img img{
+    margin-bottom: 0.2%;
+    width: 33.2%;
+}

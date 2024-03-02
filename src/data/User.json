@@ -1,0 +1,779 @@
+{
+    "User":{
+        "id" : 1,
+        "UserImg" : "/images/User/profile.jpeg",
+        "username" : "Amr Mohamed",
+        "rank" : 10,
+        "points" : 300,
+        "dayOnTrack" : 100,
+        "followers":50,
+        "Photos":[
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },{
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            }
+        ],
+        "data":{
+            "bi" : [
+                    {
+                        "label": "Jan",
+                        "revenue": "1"
+                    },
+                    {
+                        "label": "Jan",
+                        "revenue": "2"
+                    },
+                    {
+                        "label": "Jan",
+                        "revenue": "3"
+                    },
+                    {
+                        "label": "Jan",
+                        "revenue": "Jan"
+                    },
+                    {
+                        "label": "Jan",
+                        "revenue": 15
+                    },
+                    {
+                        "label": "Jun",
+                        "revenue": 15
+                    },{
+                        "label": "Feb",
+                        "revenue": 10
+                    },
+                    {
+                        "label": "Feb",
+                        "revenue": 30
+                    }
+            ]
+        }
+    },
+    "TopFollowers":[
+        {
+        "id" : 2,
+        "UserImg" : "/images/User/profile.jpeg",
+        "username" : "saad amer",
+        "rank" : 1,
+        "points" : 300,
+        "dayOnTrack" : 100,
+        "Photos":[
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            },
+            {
+                "src" : "/images/User/profile.jpeg"
+            }
+        ],
+        "data":{
+            "bi" : [
+                    {
+                        "label": "Jan",
+                        "revenue": 10
+                    },
+                    {
+                        "label": "Feb",
+                        "revenue": 10
+                    },
+                    {
+                        "label": "Mar",
+                        "revenue": 15
+                    },
+                    {
+                        "label": "Apr",
+                        "revenue": 20
+                    },
+                    {
+                        "label": "Mar",
+                        "revenue": 15
+                    },
+                    {
+                        "label": "Jun",
+                        "revenue": 15
+                    }
+            ]
+        }
+        },
+        {
+            "id" : 3,
+            "UserImg" : "/images/User/profile.jpeg",
+            "username" : "karem wahed",
+            "rank" : 2,
+            "points" : 300,
+            "dayOnTrack" : 100,
+            "Photos":[
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                }
+            ],
+            "data":{
+                "bi" : [
+                        {
+                            "label": "Jan",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Feb",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Apr",
+                            "revenue": 20
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Jun",
+                            "revenue": 15
+                        }
+                ]
+            }
+        },
+        {
+            "id" : 4,
+            "UserImg" : "/images/User/profile.jpeg",
+            "username" : "ibram ",
+            "rank" : 3,
+            "points" : 300,
+            "dayOnTrack" : 100,
+            "Photos":[
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                }
+            ],
+            "data":{
+                "bi" : [
+                        {
+                            "label": "Jan",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Feb",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Apr",
+                            "revenue": 20
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Jun",
+                            "revenue": 15
+                        }
+                ]
+            }
+        },
+        {
+            "id" : 2,
+            "UserImg" : "/images/User/profile.jpeg",
+            "username" : "wael",
+            "rank" : 4,
+            "points" : 300,
+            "dayOnTrack" : 100,
+            "Photos":[
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                }
+            ],
+            "data":{
+                "bi" : [
+                        {
+                            "label": "Jan",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Feb",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Apr",
+                            "revenue": 20
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Jun",
+                            "revenue": 15
+                        }
+                ]
+            }
+        },
+        {
+                "id" : 2,
+                "UserImg" : "/images/User/profile.jpeg",
+                "username" : "omer ahmed",
+                "rank" : 5,
+                "points" : 300,
+                "dayOnTrack" : 100,
+                "Photos":[
+                    {
+                        "src" : "/images/User/profile.jpeg"
+                    },
+                    {
+                        "src" : "/images/User/profile.jpeg"
+                    },
+                    {
+                        "src" : "/images/User/profile.jpeg"
+                    },
+                    {
+                        "src" : "/images/User/profile.jpeg"
+                    },
+                    {
+                        "src" : "/images/User/profile.jpeg"
+                    },
+                    {
+                        "src" : "/images/User/profile.jpeg"
+                    },
+                    {
+                        "src" : "/images/User/profile.jpeg"
+                    },
+                    {
+                        "src" : "/images/User/profile.jpeg"
+                    }
+                ],
+                "data":{
+                    "bi" : [
+                            {
+                                "label": "Jan",
+                                "revenue": 10
+                            },
+                            {
+                                "label": "Feb",
+                                "revenue": 10
+                            },
+                            {
+                                "label": "Mar",
+                                "revenue": 15
+                            },
+                            {
+                                "label": "Apr",
+                                "revenue": 20
+                            },
+                            {
+                                "label": "Mar",
+                                "revenue": 15
+                            },
+                            {
+                                "label": "Jun",
+                                "revenue": 15
+                            }
+                    ]
+                }
+        },
+        {
+                    "id" : 2,
+                    "UserImg" : "/images/User/profile.jpeg",
+                    "username" : "ahmed mohamed",
+                    "rank" : 6,
+                    "points" : 300,
+                    "dayOnTrack" : 100,
+                    "Photos":[
+                        {
+                            "src" : "/images/User/profile.jpeg"
+                        },
+                        {
+                            "src" : "/images/User/profile.jpeg"
+                        },
+                        {
+                            "src" : "/images/User/profile.jpeg"
+                        },
+                        {
+                            "src" : "/images/User/profile.jpeg"
+                        },
+                        {
+                            "src" : "/images/User/profile.jpeg"
+                        },
+                        {
+                            "src" : "/images/User/profile.jpeg"
+                        },
+                        {
+                            "src" : "/images/User/profile.jpeg"
+                        },
+                        {
+                            "src" : "/images/User/profile.jpeg"
+                        }
+                    ],
+                    "data":{
+                        "bi" : [
+                                {
+                                    "label": "Jan",
+                                    "revenue": 10
+                                },
+                                {
+                                    "label": "Feb",
+                                    "revenue": 10
+                                },
+                                {
+                                    "label": "Mar",
+                                    "revenue": 15
+                                },
+                                {
+                                    "label": "Apr",
+                                    "revenue": 20
+                                },
+                                {
+                                    "label": "Mar",
+                                    "revenue": 15
+                                },
+                                {
+                                    "label": "Jun",
+                                    "revenue": 15
+                                }
+                        ]
+                    }
+        },
+        {
+                        "id" : 2,
+                        "UserImg" : "/images/User/profile.jpeg",
+                        "username" : "khaled amr",
+                        "rank" : 7,
+                        "points" : 300,
+                        "dayOnTrack" : 100,
+                        "Photos":[
+                            {
+                                "src" : "/images/User/profile.jpeg"
+                            },
+                            {
+                                "src" : "/images/User/profile.jpeg"
+                            },
+                            {
+                                "src" : "/images/User/profile.jpeg"
+                            },
+                            {
+                                "src" : "/images/User/profile.jpeg"
+                            },
+                            {
+                                "src" : "/images/User/profile.jpeg"
+                            },
+                            {
+                                "src" : "/images/User/profile.jpeg"
+                            },
+                            {
+                                "src" : "/images/User/profile.jpeg"
+                            },
+                            {
+                                "src" : "/images/User/profile.jpeg"
+                            }
+                        ],
+                        "data":{
+                            "bi" : [
+                                    {
+                                        "label": "Jan",
+                                        "revenue": 10
+                                    },
+                                    {
+                                        "label": "Feb",
+                                        "revenue": 10
+                                    },
+                                    {
+                                        "label": "Mar",
+                                        "revenue": 15
+                                    },
+                                    {
+                                        "label": "Apr",
+                                        "revenue": 20
+                                    },
+                                    {
+                                        "label": "Mar",
+                                        "revenue": 15
+                                    },
+                                    {
+                                        "label": "Jun",
+                                        "revenue": 15
+                                    }
+                            ]
+                        }
+        },
+        {
+                            "id" : 2,
+                            "UserImg" : "/images/User/profile.jpeg",
+                            "username" : "amr shreif",
+                            "rank" : 6,
+                            "points" : 300,
+                            "dayOnTrack" : 100,
+                            "Photos":[
+                                {
+                                    "src" : "/images/User/profile.jpeg"
+                                },
+                                {
+                                    "src" : "/images/User/profile.jpeg"
+                                },
+                                {
+                                    "src" : "/images/User/profile.jpeg"
+                                },
+                                {
+                                    "src" : "/images/User/profile.jpeg"
+                                },
+                                {
+                                    "src" : "/images/User/profile.jpeg"
+                                },
+                                {
+                                    "src" : "/images/User/profile.jpeg"
+                                },
+                                {
+                                    "src" : "/images/User/profile.jpeg"
+                                },
+                                {
+                                    "src" : "/images/User/profile.jpeg"
+                                }
+                            ],
+                            "data":{
+                                "bi" : [
+                                        {
+                                            "label": "Jan",
+                                            "revenue": 10
+                                        },
+                                        {
+                                            "label": "Feb",
+                                            "revenue": 10
+                                        },
+                                        {
+                                            "label": "Mar",
+                                            "revenue": 15
+                                        },
+                                        {
+                                            "label": "Apr",
+                                            "revenue": 20
+                                        },
+                                        {
+                                            "label": "Mar",
+                                            "revenue": 15
+                                        },
+                                        {
+                                            "label": "Jun",
+                                            "revenue": 15
+                                        }
+                                ]
+                            }
+        },
+        {
+                                "id" : 2,
+                                "UserImg" : "/images/User/profile.jpeg",
+                                "username" : "Amr Mohamed",
+                                "rank" : 9,
+                                "points" : 300,
+                                "dayOnTrack" : 100,
+                                "Photos":[
+                                    {
+                                        "src" : "/images/User/profile.jpeg"
+                                    },
+                                    {
+                                        "src" : "/images/User/profile.jpeg"
+                                    },
+                                    {
+                                        "src" : "/images/User/profile.jpeg"
+                                    },
+                                    {
+                                        "src" : "/images/User/profile.jpeg"
+                                    },
+                                    {
+                                        "src" : "/images/User/profile.jpeg"
+                                    },
+                                    {
+                                        "src" : "/images/User/profile.jpeg"
+                                    },
+                                    {
+                                        "src" : "/images/User/profile.jpeg"
+                                    },
+                                    {
+                                        "src" : "/images/User/profile.jpeg"
+                                    }
+                                ],
+                                "data":{
+                                    "bi" : [
+                                            {
+                                                "label": "Jan",
+                                                "revenue": 10
+                                            },
+                                            {
+                                                "label": "Feb",
+                                                "revenue": 10
+                                            },
+                                            {
+                                                "label": "Mar",
+                                                "revenue": 15
+                                            },
+                                            {
+                                                "label": "Apr",
+                                                "revenue": 20
+                                            },
+                                            {
+                                                "label": "Mar",
+                                                "revenue": 15
+                                            },
+                                            {
+                                                "label": "Jun",
+                                                "revenue": 15
+                                            }
+                                    ]
+                                }
+        },
+        {
+            "id" : 2,
+            "UserImg" : "/images/User/profile.jpeg",
+            "username" : "Amr Mohamed",
+            "rank" : 10,
+            "points" : 300,
+            "dayOnTrack" : 100,
+            "Photos":[
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                }
+            ],
+            "data":{
+                "bi" : [
+                        {
+                            "label": "Jan",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Feb",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Apr",
+                            "revenue": 20
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Jun",
+                            "revenue": 15
+                        }
+                ]
+            }
+        },
+        {
+            "id" : 2,
+            "UserImg" : "/images/User/profile.jpeg",
+            "username" : "Amr Mohamed",
+            "rank" : 11,
+            "points" : 300,
+            "dayOnTrack" : 100,
+            "Photos":[
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                },
+                {
+                    "src" : "/images/User/profile.jpeg"
+                }
+            ],
+            "data":{
+                "bi" : [
+                        {
+                            "label": "Jan",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Feb",
+                            "revenue": 10
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Apr",
+                            "revenue": 20
+                        },
+                        {
+                            "label": "Mar",
+                            "revenue": 15
+                        },
+                        {
+                            "label": "Jun",
+                            "revenue": 15
+                        }
+                ]
+            }
+        }
+    ]
+}

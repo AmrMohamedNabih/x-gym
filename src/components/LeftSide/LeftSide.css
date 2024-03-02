@@ -1,0 +1,129 @@
+.left-side{
+    width: 45%;
+    height: 450px;
+    margin-right:0.5%;
+}
+    /* ------- first container in left side ---------- */
+.first-container-left{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    height: 200px;
+}
+.fc-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.fc-left img{
+    border:3px solid #a0beed;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+
+}
+
+.fc-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.fc-right::after{
+    content: "";
+    width: 2px;
+    height: 70%;
+    background:#f3f2ef;
+    position: absolute;
+    left: -11%;
+    bottom: 18%;
+}
+/* ** name **  */
+.fc-right-name,.fc-right-rank {
+    display: flex;
+}
+.fc-right-name p{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.fc-right-name img{
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+}
+/* ** rank **  */
+.fc-right-rank p{
+    padding-left: 5px;
+    font-family: Cursive;
+}
+.fc-right-rank img{
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 22px;
+    height: 22px;
+}
+/* ** track&points **  */
+.fc-right-track-points{
+    margin-left: 5px;
+    font-family: cursive;
+    display: block;
+}
+/* ** input **  */
+.fc-right-input{
+    width: 100%;
+    padding: 5% 5px;
+    box-sizing: border-box;
+    display: flex;
+}
+.fc-right-input input{
+    outline: none;
+    border: none;
+}
+.follow{
+    width: 40%;
+    border-radius:30px;
+    padding: 5px 8px;
+    background: #a0beed;
+    margin-right: 10px;
+}
+.sand-massage{
+    width: 60%;
+    border-radius:30px;
+    padding: 5px 8px;
+}
+ /* ------- second container in left side ---------- */
+.second-container-left{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+}
+.sc-img{
+    border-radius:  10px;
+    display: flex;
+    overflow: scroll;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sc-img img{
+    margin-bottom: 0.2%;
+    width: 33.2%;
+}
+
+.sc-img-no{
+    height: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover; 
+    background-image:url("https://imgs.search.brave.com/Jp6ngmaC-F_2y5_7UN2IF8HtgALS20IY1-qn-o5x8EA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0LzI5LzQyLzQy/LzM2MF9GXzQyOTQy/NDI3OV9kb2tFRndu/U29KZU9LcHF2VjF0/dFh1bThwaUVTc0Y1/TC5qcGc")
+}

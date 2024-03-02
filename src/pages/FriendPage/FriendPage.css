@@ -1,0 +1,12 @@
+.content{
+    width: 100%;
+    height: calc(100vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: black;
+}
+.content::-webkit-scrollbar {
+    display: none;
+}

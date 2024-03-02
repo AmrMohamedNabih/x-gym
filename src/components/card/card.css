@@ -1,0 +1,50 @@
+.Num {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* margin-bottom: 20px; */
+  }
+
+.Num:focus {
+    width: 150px;
+    outline: none;
+    border-color: #a0beed;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .leftSide-content{
+    flex:1;
+}
+.middelSide-content{
+    flex: 2;
+}
+.rightSide-content{
+    flex: 1;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #a0beed;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.Display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Display p{
+  margin-right: 10px;
+  width: 40px;
+  padding: 5px 0;
+  color: black;
+  font-size: x-large;
+  background-color: #f3f2ef;
+  border-radius: 5px;
+}
